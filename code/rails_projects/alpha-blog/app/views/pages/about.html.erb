@@ -1,0 +1,139 @@
+<style>
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h5, h6 {
+    color: #43C59E;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navlink {
+    text-decoration: none;
+    padding: 1em;
+    background: #43C59E;
+    color: #fff;
+    font-size: 2em;
+    display: inline-block;
+    margin-bottom: 1em;
+    transition: all .3s ease-in-out;
+}
+
+.navlink:hover {
+    background: #FE7F2D;
+}
+
+hr {
+    padding: 3em 0;
+}
+
+/* FEATURE */
+#featured {
+    background: #3DFAFF;
+    position: fixed;
+    padding: 1em 1em 1em .5em;
+    bottom: 0;
+    left: 0;
+}
+
+#featured>a {
+    text-decoration: none;
+    color: #eee;
+    text-transform: uppercase;
+    font-size: 1.8em; 
+}
+
+/* HEADER */
+header {
+    background-image: url('https://static.pexels.com/photos/450059/pexels-photo-450059.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #6E7271;
+    background-blend-mode: multiply;
+    width: 100vw;
+    height: 100vh;
+}
+
+#bear {
+    color: #FE7F2D;
+}
+
+h1 {
+    padding-top: 1.5em;
+    font-size: 7em;
+    color: #43C59E;
+    text-align: center;
+}
+
+h3 {
+    font-size: 4em;
+    text-align: center;
+    padding-top: 35vh;
+}
+
+
+/* ARTICLES */
+#about {
+    padding: 0 4em 2em 0;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+
+p {
+    font-size: 1.1em;
+    letter-spacing: 1.1px;
+    line-height: 1.35em;
+}
+
+
+/* FOOTER */
+footer {
+    background: #202020;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h5 {
+    color: #efefef;
+    padding: 1em;
+    font-size: 3em; 
+}
+
+h5:nth-of-type(2) {
+    background: #14453D; 
+}        
+</style>
+
+    <header>
+        
+        <h3>We are colorful! </br> <span id="bear">ʕ•ᴥ•ʔ</span></h3>
+        
+    </header>
+
+    
+    <section id="about">
+        <%= link_to 'Home', pages_home_path, :class => "navlink" %>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis doloremque voluptate, commodi quae esse laudantium totam accusamus explicabo modi! Error sequi, cumque blanditiis molestias facere architecto aliquam dignissimos, vel consectetur fuga. Quam vero illum fugiat quisquam maxime ipsam, facilis unde, maiores non deserunt a, atque temporibus rerum sit voluptate dolore.</p>
+        <br></br>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat molestias quisquam expedita sapiente similique accusamus, odio illo earum ex animi!</p>
+        <br></br>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore fugit, unde aut laborum delectus eos velit minus hic ex, dolore repudiandae cupiditate libero similique assumenda expedita nulla sequi nihil praesentium.</p>
+    </section>
+
+        <footer>
+            <h5>get to know us!</h5>
+            <h5>get our newsletter!</h5>
+            <h5>get involved!</h5>
+        </footer>
+        
+        
+        <div id="featured">
+            <a href="#" target="_blank">Free hugs!</a>    
+        </div>
