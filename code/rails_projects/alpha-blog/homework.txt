@@ -4,4 +4,4 @@
 4) Ensure you have appropriate routes (x)
 5) Create a homepage, about (x)
 6) Take the code from the previous homework: html homepage(x)
-7) Apply the same style to the about page
+7) Apply the same style to the about page (x)
