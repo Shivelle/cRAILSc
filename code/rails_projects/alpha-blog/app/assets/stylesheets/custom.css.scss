@@ -40,6 +40,12 @@ a:hover {
     text-align: center;
 }
 
+h2 {
+    font-size: 3em;
+    margin: 1em auto;
+}
+
+
 /* NAVBAR */
 #logo {
     float: left;
@@ -139,6 +145,14 @@ h4 {
     margin: 0 auto 3em auto;
 }
 
+.article-actions {
+    border-top: 1px solid #eaeaea;
+    padding-top: 5px;
+}
+
+.description {
+    margin-top: 0;
+}
 
 h3 {
     font-size: 3.7em;
