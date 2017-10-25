@@ -1,2 +1,197 @@
+$navbar-default-bg: #43C59E; 
+
+
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+body {
+    padding-top: 0;
+    margin-top: 0;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h5, h6 {
+    margin: 0;
+    color: #43C59E;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    transition: all .3s ease-in-out;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #ddd;
+}
+
+/* NAVBAR */
+#logo {
+    float: left;
+    font-size: 1.7em;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    font-weight: bold;
+    transition: all .3s ease-in-out;
+}
+
+#logo:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.navlink {
+    text-decoration: none;
+    padding: 1em;
+    background: #43C59E;
+    color: #fff;
+    font-size: 2em;
+    display: inline-block;
+    margin-bottom: 1em;
+}
+
+/* FEATURE */
+#featured {
+    background: #3DFAFF;
+    position: fixed;
+    padding: 1em 1em 1em .5em;
+    bottom: 0;
+    left: 0;
+}
+
+#featured>a {
+    text-decoration: none;
+    color: #eee;
+    text-transform: uppercase;
+    font-size: 1.8em; 
+}
+
+/* HEADER */
+header {
+    background-image: url('https://static.pexels.com/photos/541518/pexels-photo-541518.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.btn-xlarge {
+    margin-top: 44px;
+    font-size: 2.2em;
+    padding: 15px;
+    background-color: orange;
+    border-radius:0;
+    border: none;
+    transition: all .3s ease-in-out;
+}
+
+.btn-xlarge:hover {
+    background-color: crimson;
+    color: #fff;
+}
+
+#list_header {
+    background-image: asset-url('typing2.jpg');
+    background-size: cover;
+    height: 550px;
+    text-align: center;
+}
+
+#list_header > h2 {
+    font-size: 3em;
+    padding-top: 150px;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    font-weight: bold;
+}
+
+h1 {
+    padding-top: 1.5em;
+    font-size: 7em;
+    color: #43C59E;
+}
+
+h4 {
+    color: #14453D;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 1.5em;
+    padding-right: 200px;
+}
+
+/* ARTICLES */
+#articles {
+    padding: 0 4em 2em 0;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.article {
+    padding-bottom: 4em;
+}
+
+#article-list {
+    margin: 0 auto 3em auto;
+}
+
+
+h3 {
+    font-size: 3.7em;
+    padding: .3em;
+    margin-bottom: .3em;
+    color: #fff;
+    background-position: center;
+    background-color: #3DFAFF;
+    background-blend-mode: multiply;
+}
+
+p {
+    font-size: 1.1em;
+    letter-spacing: 1.1px;
+    line-height: 1.35em;
+}
+
+#NewYork {
+    background-image: url('https://images.pexels.com/photos/290386/pexels-photo-290386.jpeg?w=940&h=650&auto=compress&cs=tinysrgb');
+}
+
+#Paris {
+    background-image: url('https://images.pexels.com/photos/149522/pexels-photo-149522.jpeg?w=940&h=650&auto=compress&cs=tinysrgb');
+}
+
+#Rome {
+    background-image: url('https://images.pexels.com/photos/10922/pexels-photo-10922.jpeg?w=940&h=650&auto=compress&cs=tinysrgb');
+}
+
+#London {
+    background-image: url('https://images.pexels.com/photos/50632/pexels-photo-50632.jpeg?w=940&h=650&auto=compress&cs=tinysrgb');
+}
+
+#Berlin {
+    background-image: url('https://images.pexels.com/photos/86456/berlin-reichstag-government-glass-dome-86456.jpeg?w=940&h=650&auto=compress&cs=tinysrgb');
+}
+
+
+/* FOOTER */
+footer {
+    background: #202020;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h5 {
+    color: #efefef;
+    padding: 1em;
+    font-size: 3em; 
+}
+
+h5:nth-of-type(2) {
+    background: #14453D; 
+}    
